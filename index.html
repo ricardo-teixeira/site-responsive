@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plateful - Restaurante</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="/css/normalize.css" rel="stylesheet">
+  <script>
+  // Picture element HTML5 shiv
+  document.createElement( "picture" );
+  </script>
+  <script src="libs/picturefill/picturefill.min.js" async></script>
+</head>
+
+<body ng-cloak>
+
+  <header ng-include="'partials/header.html'"></header>
+  <div ng-view id="main"></div>
+  <footer ng-include="'partials/footer.html'"></footer>
+
+  <script src="libs/jquery/jquery.min.js"></script>
+  <script src="libs/angular/angular.min.js"></script>
+  <script src="libs/angular-route/angular-route.min.js"></script>
+  <script src="libs/angular-animate/angular-animate.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
